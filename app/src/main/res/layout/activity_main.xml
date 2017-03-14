@@ -43,13 +43,13 @@
             android:background="@android:color/black"
             android:padding="10dp"
             android:textColor="@color/text_color"
-            android:shadowColor="@color/text_shadow_white"
-            android:shadowDx="1"
-            android:shadowDy="1"
-            android:shadowRadius="2"
             android:lineSpacingMultiplier="0.5"
             android:text="09:00\n-\n17:00"
-            />
+            android:shadowColor="@color/text_shadow_white"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="5"
+        />
         <TextView
             android:layout_height="wrap_content"
             android:layout_width="match_parent"

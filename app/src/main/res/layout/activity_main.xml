@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.android.autoglassfix.MainActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/winhd"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:textSize="36sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"
+            android:padding="20dp"
+            android:text="www.autoglassfix.ro"
+            />
+
+    <LinearLayout
+        android:id="@+id/textBottomLine1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textBottomLine2"
+        >
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:textSize="36sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+            android:background="@android:color/black"
+            android:padding="10dp"
+            android:textColor="@color/text_color"
+            android:shadowColor="@color/text_shadow_white"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:lineSpacingMultiplier="0.5"
+            android:text="09:00\n-\n17:00"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="right"
+            android:textSize="36sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@android:color/white"
+            android:background="#8000"
+            android:padding="20dp"
+            android:text="Call now!\n 0722 60 66 10"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/textBottomLine2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_red_light"
+            android:padding="10dp"
+            android:text="We come to you up to 50km around Bucharest!"
+            />
+    </LinearLayout>
+    </RelativeLayout>
+
